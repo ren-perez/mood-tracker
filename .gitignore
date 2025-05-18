@@ -1,0 +1,4 @@
+.streamlit
+*.toml
+.venv
+google_credentials.json
