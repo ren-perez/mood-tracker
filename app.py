@@ -103,8 +103,8 @@ def log_mood_entry(worksheet, mood, note):
         return False
 
 # --- Streamlit App UI ---
-st.set_page_config(page_title="Ops Mood Tracker", page_icon="😊", layout="wide")
-st.title("😊 Ops Team Mood Tracker")
+st.set_page_config(page_title="Mood of the Queue", page_icon="😊", layout="wide")
+st.title("😊 Mood of the Queue")
 st.markdown("Log the vibe of the ticket queue and see how we're feeling!")
 
 worksheet = get_worksheet()
